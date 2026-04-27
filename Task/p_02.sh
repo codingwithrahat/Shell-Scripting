@@ -6,9 +6,9 @@ for i in $(seq 1 1 $n)
 do 
     if [ $((i % 2)) -eq 0 ]
     then
-        echo "Even"
+        echo "$i - Even"
     else
-        echo "ODD"
+        echo "$i - ODD"
     fi 
 done
 
